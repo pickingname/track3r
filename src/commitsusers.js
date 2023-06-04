@@ -8,7 +8,7 @@
         if (commitElement) {
           const authorName = commit.commit.author.name;
           const commitMessage = commit.commit.message;
-          commitElement.innerHTML = `Author: ${authorName}<br>Message: ${commitMessage}`;
+          commitElement.innerHTML = `Author: ${authorName}`;
         }
       });
     })
