@@ -15,7 +15,7 @@
             day: 'numeric',
             year: '2-digit'
           });
-          commitElement.innerHTML = `Author: ${authorName}<br>Message: ${commitMessage}<br>Time: ${commitTime}`;
+          commitElement.innerHTML = `Author: ${authorName}<br>Time: ${commitTime}`;
         }
       });
     })
