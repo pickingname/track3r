@@ -19,6 +19,7 @@ module.exports = {
       colors: {
         'badass-black': '#111111',
         'verydark-blue' : '#060b36',
+        'verydark-purple' : '#2f1a55',
       },
     },
   },
