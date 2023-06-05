@@ -19,7 +19,8 @@ module.exports = {
       colors: {
         'badass-black': '#111111',
         'verydark-blue' : '#060b36',
-        'verydark-purple' : '#2f1a55',
+        'verydark-purple' : '#15093b',
+        'blue-alt2' : '#161b22',
       },
     },
   },
