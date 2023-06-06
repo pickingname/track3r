@@ -1,7 +1,7 @@
 import { defineConfig } from "vite";
 
 export default defineConfig({
-  base: "/track3r/",
+  // base: "/track3r/", prefered to use nothing ++
   plugins: [
     // plugins
   ],
