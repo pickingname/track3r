@@ -1,7 +1,6 @@
 # people track3r
 
 [![CodeQL](https://github.com/pickingname/track3r/actions/workflows/codeql.yml/badge.svg)](https://github.com/pickingname/track3r/actions/workflows/codeql.yml)
-[![pages-build-deployment](https://github.com/pickingname/track3r/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/pickingname/track3r/actions/workflows/pages/pages-build-deployment)
 
 # Developing
 
