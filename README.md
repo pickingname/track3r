@@ -1,3 +1,7 @@
+# people track3r
+
+[![CodeQL](https://github.com/pickingname/track3r/actions/workflows/codeql.yml/badge.svg)](https://github.com/pickingname/track3r/actions/workflows/codeql.yml)
+
 # Developing
 
 1. git clone this repo
