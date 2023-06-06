@@ -10,3 +10,14 @@
 	width: 100%;
 	margin: 0 auto;
 }
+
+.green {
+	color: green;
+}
+
+.red { color: red; }
+
+img.center {
+	display: block;
+	margin: 0 auto;
+} /* https://stackoverflow.com/a/7055404 */
