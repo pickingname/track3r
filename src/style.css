@@ -3,3 +3,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.chart-container {
+	position: relative;
+	height: 60vh;
+	width: 100%;
+	margin: 0 auto;
+}
