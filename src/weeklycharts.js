@@ -1,5 +1,6 @@
 // script.js
 import { weeklyDatas } from './datastores.js';
+import { chartgridcolor } from './datastores.js';
 
 const data = {
 	labels: ['week1', 'week 2', 'week 3'],
@@ -30,7 +31,8 @@ const configLineChart = {
 		scales: {
 			x: {
 				grid: {
-					display: true
+					display: true,
+					color: chartgridcolor
 				},
 				ticks: {
 					fontColor: 'black',
@@ -40,7 +42,8 @@ const configLineChart = {
 			},
 			y: {
 				grid: {
-					display: true
+					display: true,
+					color: chartgridcolor
 				},
 				ticks: {
 					fontColor: 'black',
