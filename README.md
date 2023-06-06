@@ -1,7 +1,3 @@
-# track3r
-
----
-
 # Developing
 
 1. git clone this repo
@@ -11,4 +7,4 @@
 
 ---
 
-send us a pull request if you make some good changes
+##### send us a pull request if you make some good changes
