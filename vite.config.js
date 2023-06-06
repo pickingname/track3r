@@ -1,7 +1,7 @@
 import { defineConfig } from "vite";
 
 export default defineConfig({
-  // project related config
+  "homepage": "https://pickingname.github.io/track3r/",
   plugins: [
     // plugins
   ],
