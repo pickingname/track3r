@@ -17,7 +17,7 @@ $.ajax({
     success: function (response) {
         var array = response.user
         buildTable(array)
-        console.log(array)
+        console.debug(array)
     }
 })
 
