@@ -11,6 +11,8 @@ xhr.onload = ()=>{
 xhr.send();
 */
 
+$('#loading').css('display', 'block');
+
 $.ajax({
     method: 'GET',
     url: 'https://script.google.com/macros/s/AKfycbyy6NqNbLUoc2OwZ_gbRAgM8BtRHqgBQ_lTpzJ4zWc3rWe8B7R2ZLzzzY6hDK4lKu6eHQ/exec',
@@ -18,6 +20,7 @@ $.ajax({
         var array = response.user
         buildTable(array)
         console.debug(array)
+        $('#loading').css('display', 'none');
     }
 })
 
