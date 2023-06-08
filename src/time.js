@@ -1,4 +1,5 @@
   fetch('https://api.github.com/repos/pickingname/track3r/commits?per_page=5')
+  console.debug('fetching started: https://api.github.com/repos/pickingname/track3r/commits?per_page=5')
     .then(response => response.json())
     .then(data => {
       // Iterate over the commits and append commit message, author, and time
