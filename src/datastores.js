@@ -1,2 +1,2 @@
-export const weeklyDatas = [2, 0];
+export const weeklyDatas = [2, 1];
 export const chartgridcolor = '#10192c'
