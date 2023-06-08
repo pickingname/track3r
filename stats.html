@@ -41,19 +41,23 @@
          </ul>
          <hr class="h-px my-4 border-0 bg-gray-700">
       <p class='text-white text-center text-xs'>&copy; 0x7F 2023</p>
+      <p id="version" class='text-white text-center text-xs'></p>
       <img src="https://github.com/pickingname/track3r/actions/workflows/codeql.yml/badge.svg" alt='codeql' class='center pt-3'>
       </div>
     </aside>
     <main class="p-4 sm:ml-64">
 		<div>
 		<p class="pl-3 text-white pt-5 font-semibold text-sm sm:pl-1">Bad things tracker (statistics)</p>
-		<p class="pl-3 text-white pt-2 text-sm font-mono sm:pl-1"><span id='status'></span></p>
-			<div class='chart-container pt-10 px-3'>
+      <p class="pl-3 text-white text-sm sm:pl-1">Tracks how much bad things happens to us (by weeks)</p>
+		<p class="pl-3 text-white pt-3 text-sm font-mono sm:pl-1"><span id='status'></span></p>
+			<div class='chart-container pt-5 px-3'>
   				<canvas id="weeklycharts"></canvas>
 			</div>
 		</div>
     </main>
     <script src="node_modules/flowbite/dist/flowbite.min.js"></script>
+    <script type="module" src="src/versionhandler.js"></script>
 	<script src="src/weeklycharts.js" type='module'></script>
+   <script src="src/main.js" type='module'></script>
   </body>
 </html>
