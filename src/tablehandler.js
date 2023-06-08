@@ -33,7 +33,7 @@ function buildTable(data) {
          `<tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
               <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">${data[i].Name}</td>
               <td class="px-6 py-4">${data[i].Time}</td>
-              <td class="px-6 py-4">${data[i].Catagory}</td>
+              <td class="px-6 py-4">${data[i].Category}</td>
               <td class="px-6 py-4">${data[i].Action}</td>
           </tr>`
 
