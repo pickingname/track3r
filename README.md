@@ -8,6 +8,7 @@
 2. install pnpm if you haven't `npm install pnpm`
 3. install the deps using `pnpm i`
 4. and run it using `pnpm dev`
+5. web interface is at [locahost:5173](https://localhost:5173)
 
 ---
 
