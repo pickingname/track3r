@@ -1,1 +1,1 @@
-send us a pr
+send us a pull request
