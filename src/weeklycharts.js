@@ -47,7 +47,9 @@ const configLineChart = {
 		  ticks: {
 			fontColor: 'black',
 			  fontSize: 12,
-			  beginAtZero: true
+			  beginAtZero: true,
+        max: 100,
+        min: 0,
 		}
 	  }
 	},

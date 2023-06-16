@@ -22,6 +22,8 @@ module.exports = {
         'verydark-purple' : '#15093b',
         'blue-alt2' : '#161b22',
         'sep-grey' : '#2a2832',
+        'nice-grey' : '#333333',
+        'outline-grey' : '#525150',
       },
     },
   },
