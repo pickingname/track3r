@@ -2,7 +2,7 @@ import { weeklyDatas } from './datastores.js';
 import { chartgridcolor } from './datastores.js';
 
 const data = {
-  labels: ['week1', 'week 2'],
+  labels: ['week1', 'week 2', 'week 3'],
   datasets: [
     {
       label: "weekly bad things",
