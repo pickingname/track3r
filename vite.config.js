@@ -9,4 +9,7 @@ export default defineConfig({
     host: true,
     port: 5173, // change port number if you prefer
   },
+  rewrite: {
+    '^/pages/(.*)\\.html': '/pages/$1',
+  },
 });
