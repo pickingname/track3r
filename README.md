@@ -1,6 +1,7 @@
 # people track3r
 
 [![CodeQL](https://github.com/pickingname/track3r/actions/workflows/codeql.yml/badge.svg)](https://github.com/pickingname/track3r/actions/workflows/codeql.yml)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a8186194-70d7-44e9-9634-ac3b40774744/deploy-status)](https://app.netlify.com/sites/pickingname/deploys)
 
 # Developing
 
