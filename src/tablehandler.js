@@ -11,6 +11,7 @@ xhr.onload = ()=>{
 xhr.send();
 */
 
+/*
 $('#loading').css('display', 'block');
 
 $.ajax({
@@ -40,3 +41,5 @@ function buildTable(data) {
         table.innerHTML += row
     }
 }
+
+*/
