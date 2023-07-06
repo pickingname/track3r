@@ -24,6 +24,8 @@ module.exports = {
         'sep-grey' : '#2a2832',
         'nice-grey' : '#333333',
         'outline-grey' : '#525150',
+        'weird-purrple' : '#48006A',
+        'weird-blue' : '#000533',
       },
     },
   },
