@@ -28,7 +28,7 @@
   "dependencies": {
     "@notionhq/client": "^2.2.6",
     "flowbite": "^1.7.0",
-    "pnpm": "^8.6.6",
+    "pnpm": "^8.6.7",
     "requirejs": "^2.3.6"
   }
 }
