@@ -1,8 +1,11 @@
 import { weeklyDatas } from './datastores.js';
 import { chartgridcolor } from './datastores.js';
+import { weeklyAverage } from './datastores.js';
+console.debug(weeklyDatas)
+console.debug('avg: '+weeklyAverage)
 
 const data = {
-  labels: ['week1', 'week 2', 'week 3'],
+  labels: ['week 1', 'week 2', 'week 3', 'week 4', 'week 5', 'week 6', 'week 7', 'week 8'],
   datasets: [
     {
       label: "weekly bad things",
@@ -69,6 +72,8 @@ const chartLine = new Chart(document.getElementById("weeklycharts"), configLineC
 
 // Determine if bad things or good things increased and by how much
 const statusElement = document.getElementById('status');
+const averageElement = document.getElementById('average');
+averageElement.innerHTML = 'Average Incidents: '+weeklyAverage;
 const lastValue = weeklyDatas[weeklyDatas.length - 1];
 const secondLastValue = weeklyDatas[weeklyDatas.length - 2];
 const difference = lastValue - secondLastValue;

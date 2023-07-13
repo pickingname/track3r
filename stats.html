@@ -9,7 +9,7 @@
 	 <script src="src/chart.js"></script>
     <title>track3r - data</title>
   </head>
-  <body class="min-h-screen antialiased bg-black bg-gradient-to-br from-badass-black via- to-verydark-blue">
+  <body class="min-h-screen antialiased bg-black bg-gradient-to-br from-badass-black via- to-verydark-blue dark">
    <button data-drawer-target="default-sidebar" data-drawer-toggle="default-sidebar" aria-controls="default-sidebar" type="button" class="inline-flex items-center p-2 mt-2 ml-3 text-sm text-gray-500 rounded-lg sm:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600">
       <span class="sr-only">Open sidebar</span>
       <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -47,13 +47,19 @@
     </aside>
     <main class="p-4 sm:ml-64">
 		<div>
-		<p class="pl-3 text-white pt-5 font-semibold text-sm sm:pl-1">Bad things tracker (statistics)</p>
-      <p class="pl-3 text-white text-sm sm:pl-1">Tracks how much bad things happens to us (by weeks)</p>
-		<p class="pl-3 text-white pt-3 text-sm font-mono sm:pl-1"><span id='status'></span></p>
+		<p class="pl-3 text-white pt-5 font-semibold text-sm sm:pl-1">Incidents tracker (statistics)</p>
+      <p class="pl-3 text-white text-sm sm:pl-1">Tracks how much Incidents happens to us (by weeks)</p>
+      <p class="pl-3 text-white pt-3 text-sm font-mono sm:pl-1"><span id='average'>Fetching datas</span></p>
+		<p class="pl-3 text-white pt-0 text-sm font-mono sm:pl-1"><span id='status'>Fetching datas</span></p>
       <br>
-			<div class='chart-container pt-5 px-3 rounded-lg outline-1 outline-sep-grey outline bg-verydark-blue drop-shadow-xl'>
+			<div class='chart-container pt-1 pb-2 px-3 rounded-lg outline-1 outline-sep-grey outline drop-shadow-xl'>
   				<canvas id="weeklycharts"></canvas>
 			</div>
+         <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700">
+         <div class="text-gray-300">
+            <p class="font-semibold text-gray-400">ANNOUNCEMENTS - NEW FEATURES</p>
+            <p>The Incident Details feature will be available soon. In fact, it is scheduled to be released around July 21, the day I finish my exams. It might finish early or late, we do not know.</p>
+         </div>
 		</div>
     </main>
     <script src="node_modules/flowbite/dist/flowbite.min.js"></script>
