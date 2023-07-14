@@ -21,7 +21,7 @@ module.exports = {
         'verydark-blue' : '#060b36',
         'verydark-purple' : '#15093b',
         'blue-alt2' : '#161b22',
-        'sep-grey' : '#2a2832',
+        'sep-grey' : '#334155',
         'nice-grey' : '#333333',
         'outline-grey' : '#525150',
         'weird-purrple' : '#48006A',

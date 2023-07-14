@@ -9,8 +9,8 @@ const data = {
   datasets: [
     {
       label: "weekly bad things",
-      backgroundColor: "hsl(259, 61%, 87%)",
-      borderColor: "hsl(259, 61%, 87%)",
+      backgroundColor: "hsl(25, 64%, 43%)",
+      borderColor: "hsl(25, 64%, 43%)",
       data: weeklyDatas,
       fill: false
     },
